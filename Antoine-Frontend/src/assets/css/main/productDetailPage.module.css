@@ -1,0 +1,563 @@
+.pdpCard {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.pdpCardView {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0px;
+    flex-wrap: wrap;
+}
+
+.pdpCardView .pdpCardImg .thumbcontainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.pdpCardView .pdpCardImg {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+    margin-right: 80px;
+}
+
+
+.cartBtn svg {
+    padding: 0px 8px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+}
+
+.pdpCardView .pdpCardContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.pdpCardView .pdpCardContent .pdpTitle {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.pdpCardView .pdpCardContent .pdpAuthor {
+    color: #00838C;
+    font-size: 14px;
+    margin-bottom: 16px;
+
+}
+
+.pdpCardView .pdpCardContent .pdpRating {
+    margin-bottom: 25px;
+}
+
+.pdpCardView .pdpCardContent .priceContainer {
+    margin-bottom: 14px;
+}
+
+.pdpCardView .pdpCardContent .priceContainer .pdpPrice {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.pdpCardView .pdpCardContent .priceContainer .discountPrice {
+    text-decoration: line-through;
+    font-size: 14px;
+    padding-right: 10px;
+    color: #72797E;
+}
+
+.discount {
+    color: red;
+    font-size: 14px;
+
+}
+
+.discount {
+    color: red;
+}
+
+.pdpCardView .pdpCardContent .quantity {
+    display: flex;
+    width: 104px;
+    height: 61px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+}
+
+.pdpCardView .pdpCardContent .quantity .qtyTitle {
+    width: 100%;
+    font-size: 12px;
+}
+
+.pdpCardView .pdpCardContent .quantity .qtyContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.pdpCardView .pdpCardContent .quantity .qtyContainer .plus {
+    border: none;
+    background: white;
+    color: #333F48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 17px;
+    left: 14px;
+}
+
+.pdpCardView .pdpCardContent .quantity .qtyContainer .minus {
+    border: none;
+    background: white;
+    color: #333F48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 9px;
+    right: 11px;
+}
+
+.pdpCardView .pdpCardContent .quantity .qtyContainer .qty {
+    margin: 0px 20px;
+    font-weight: bold;
+}
+
+.pdpCardView .pdpCardContent .cartBtnContainer {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.pdpCardView .pdpCardContent .cartBtnContainer .cartBtn {
+    border: none;
+    color: white;
+    padding: 14px 0px;
+    width: 185px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    background: #333F48;
+
+}
+
+.pdpCardView .pdpCardContent .cartBtnContainer .cartBtnSignIn {
+    width: 320px;
+    height: 48px;
+    border: 2px solid #333F48;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pdpCardView .pdpCardContent .cartBtnContainer .cartBtnSignIn svg {
+    width: 18px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.pdpCardView .pdpCardContent .shareContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.pdpCardView .pdpCardContent .shareContainer button {
+    border: none;
+    background-color: white;
+    color: #333F48;
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pdpCardView .pdpCardContent .shareContainer button svg {
+    height: 16px;
+    width: 14px;
+    margin-right: 8px;
+}
+
+.pdpCardView .pdpCardContent .shareContainer button svg path {
+    fill: #333F48;
+}
+
+/* .pdpCardView .pdpCardContent .shareContainer .storeLocation {}
+
+.pdpCardView .pdpCardContent .shareContainer .addWishlist {}
+
+.pdpCardView .pdpCardContent .shareContainer .share {} */
+
+.pdpCardView .pdpCardContent p {
+    font-size: 12px;
+    color: #333F48;
+    font-weight: 500;
+}
+
+.pdpCardView .pdpCardContent .International {
+    margin-bottom: 12px;
+}
+
+.pdpCard .productInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 32px;
+}
+
+.pdpCard .productInfo .infoBtn {
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    max-width: 949px;
+    width: 100%;
+}
+
+.reviewContent {
+    /* max-width: 949px; */
+    padding: 40px;
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reviewContents {
+    max-width: 949px;
+    /* height: 127px; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* .ProductDesc,
+.moreInfo,
+.review {
+    padding-bottom: 17px;
+    font-size: 18px;
+    font-weight: 600;
+} */
+
+.pdpCard .productInfo .infoBtn .moreInfo {
+    color: #333F48;
+    margin: 0 48px;
+}
+
+.pdpCard .productInfo .infoBtn .ProductDesc {
+    margin-right: 24px;
+    color: #333F48;
+}
+
+.pdpCard .productInfo .infoBtn .review {
+    margin-left: 24px;
+    color: #333F48;
+}
+
+.ProductDescContent {
+    padding: 32px;
+    text-align: left;
+    font: normal normal normal 14px/24px Inter;
+    letter-spacing: 0px;
+    color: #333F48;
+    opacity: 1;
+}
+
+.borderCss {
+    border-bottom: 3px solid;
+    color: black;
+}
+
+.review1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 140px;
+    /* height: 127px; */
+}
+
+.rating svg {
+    height: 24px;
+    width: 24px;
+    color: #FABB00;
+}
+
+
+.reviews {
+    font-size: 16px;
+}
+
+.review1 .avgReview {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.review2 {
+    max-width: 391px;
+    width: 100%;
+}
+
+.review2 ul {
+    list-style-type: none;
+    font-size: 14px;
+    color: #333F48;
+}
+
+.review2 ul li {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Wrapper {
+    max-width: 120px;
+    width: 100%;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 127px;
+}
+
+.feedback .feedbackContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback .feedbackContent .feedbackBtn {
+    width: 151px;
+    height: 40px;
+    background: #333F48;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 12px;
+}
+
+.feedback .feedbackContent .feedbackBtn svg {
+    margin-right: 12px;
+}
+
+.boughtedProduct {
+    font-size: 13px;
+    margin-bottom: 16px;
+    color: #333F48;
+}
+
+.customerReview {
+    margin: 28px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comments {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #333F48;
+}
+
+.ratingComments {
+    margin-left: 24px;
+    margin-right: 64px;
+}
+
+.ratingComments svg {
+    height: 24px;
+    width: 24px;
+    color: #FABB00;
+}
+
+.reviewTitle {
+    margin-bottom: 32px;
+    color: #72797E;
+    font-size: 18px;
+}
+
+.commentTitle {
+    margin-bottom: 24px;
+    color: #333F48;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.reviewMain {
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px) {
+    .ProductDescContent {}
+
+    .productInfo {}
+
+    .productInfo .infoBtn {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .pdpDesc {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+
+    /* .pdpCard .productInfo .infoBtn span {
+        padding: 0px;
+    } */
+
+    .additionalInfo {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+
+    .reviewBtn {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    .pdpDesc button {
+        border: none;
+        background: white;
+        display: flex;
+    }
+
+    .DescBtn {
+        /* border: none;
+        background: white;
+        display: flex;
+        justify-content: space-around; */
+    }
+
+    .pdpCardView .pdpCardImg {
+        margin: 0PX;
+    }
+
+    .pdpCardView .pdpCardImg .thumbcontainer {
+        display: none;
+    }
+
+    .mainImage img {
+        width: 250px;
+        height: 375px;
+    }
+
+    .pdpCardView .pdpCardContent .cartBtnContainer {
+        flex-direction: column;
+    }
+
+    .pdpCardView .pdpCardContent .pdpTitle {
+        font-size: 20px;
+    }
+
+    .pdpCardView .pdpCardContent .pdpAuthor {
+        font-size: 12px;
+    }
+
+    .discount {
+        color: red;
+    }
+
+    .pdpCardView .pdpCardContent .cartBtnContainer .cartBtn {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .pdpCardView .pdpCardContent .cartBtnContainer .cartBtnSignIn {
+        width: 100%;
+    }
+
+    .pdpCardView .pdpCardContent .shareContainer {
+        flex-direction: column;
+    }
+
+    .pdpCardView .pdpCardContent .shareContainer button {
+        justify-content: unset;
+        padding-bottom: 20px;
+    }
+
+    .ProductDescContent {
+        padding: 20px 0px;
+    }
+
+    .reviewContents {
+        /* max-width: au; */
+        height: 100%;
+        width: 100%;
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+    }
+
+    .ProductDescContent {
+        padding: 16px;
+        font: normal normal normal 12px/24px Inter;
+        letter-spacing: 0px;
+        opacity: 1;
+    }
+
+    .review1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 88px;
+        height: 82px;
+        margin-right: 20px;
+    }
+
+    .review1 .avgReview {
+        font-size: 32px;
+        font-weight: 600;
+        color: #333F48;
+    }
+
+    .reviewMain {
+        display: flex;
+        padding: 12px;
+        justify-content: space-between;
+    }
+
+    .Wrapper {
+        /* max-width: 300px; */
+        width: 100%;
+    }
+
+    .review2 {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .reviews {
+        font-size: 12px;
+    }
+
+}

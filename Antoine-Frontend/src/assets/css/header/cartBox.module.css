@@ -1,0 +1,156 @@
+.container {
+    max-width: 420px;
+    margin: 0 auto;
+
+}
+
+.cartBoxContainer {
+    position: absolute;
+    z-index: 2;
+    right: 17px;
+    display: flex;
+    flex-direction: column;
+    width: 333px;
+}
+
+.cartHead {
+    background-color: #EEEEEE;
+    padding: 20px;
+}
+
+.cartHead a {
+    text-decoration: none;
+}
+
+.productAmount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemInCart {
+    font-size: 16px;
+}
+
+.itemSubtotal {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtotal {
+    font-weight: bold;
+}
+
+.checkoutBtn {
+    background-color: #333F48;
+    width: 100%;
+    border: navajowhite;
+    color: white;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+.checkoutBtn svg {
+    margin-right: 8px;
+}
+
+.cartBody {
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+}
+
+.quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantity button {
+    width: 70px;
+    height: 33px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #EEEEEE;
+    background-color: white;
+}
+
+.quantity .updateBtn {
+    display: flex;
+    justify-content: space-between;
+    width: 54px;
+    cursor: pointer;
+}
+
+.cartItem {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.cartItem img {
+    width: 80px;
+    height: 120px;
+    margin-right: 16px;
+}
+
+.cartItem .cartItemDetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartItemDetail span {
+    margin-bottom: 10px;
+}
+
+.productName {
+    font-size: 14px;
+    color: #333F48;
+}
+
+.productAuth {
+    font-size: 12px;
+    color: #72797E;
+}
+
+.productGlobal {
+    font-size: 12px;
+    color: #333F48;
+}
+
+.productNational {
+    font-size: 14px;
+    color: #333F48;
+    font-weight: bold;
+}
+
+.viewDetail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    background: #EEEEEE;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333F48;
+}
+
+@media only screen and (max-width: 768px) {
+    .cartBoxContainer {
+        position: absolute;
+        z-index: 1;
+        right: -10px;
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+    }
+}

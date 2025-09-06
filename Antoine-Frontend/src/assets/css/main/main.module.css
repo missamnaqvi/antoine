@@ -1,0 +1,510 @@
+.main {
+    background-color: #F7E7E7;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.main img {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.banner {
+    /* margin: 0 auto; */
+    width: 100%;
+    height: 480px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.deal {
+    border-bottom: 1px solid #b3aeae;
+    display: flex;
+    /* justify-content: center; */
+    overflow-x: scroll;
+}
+
+.deal .dealCard {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 32px 18px;
+    /* width: 100%; */
+}
+
+
+
+/* .slick-slide img {
+    display: block;
+    margin-bottom: 10px;
+} */
+
+/* .dealCard img {
+        margin-bottom: 16px;
+    } */
+
+/* books Card  */
+.bookTitle {
+    padding: 16px 18px;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.bookContent {
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+    border-bottom: 1px solid #eee
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.bookCard {
+    width: 240px;
+    height: 481px;
+    padding-top: 16px;
+    margin: 0px 16px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+}
+
+.whishlistSvg {
+    height: 15px;
+    width: 18px;
+    position: absolute;
+    top: 24px;
+    right: 14px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.bookCard img {
+    width: 208px;
+    height: 312px;
+}
+
+.bookCard p {
+    text-align: center;
+    font-size: 14px;
+    color: #333F48;
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+.bookCard .author {
+    color: #72797E;
+}
+
+.cartBtn {
+    display: none;
+    background-color: #333F48;
+    color: #fff;
+    font-size: 16px;
+    height: 48px;
+    width: 208px;
+    text-align: center;
+    border: 0px;
+    position: absolute;
+    bottom: 0px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.cartBtn svg {
+    padding: 0px 8px;
+    width: 20px;
+    height: 19px;
+    font-size: 16px;
+}
+
+
+
+/* feedback star css start  */
+
+/* feedback star css end  */
+.bookCard:hover .cartBtn {
+    display: block;
+}
+
+.bookCard:hover {
+    box-shadow: 0px 5px 10px #00000029;
+}
+
+
+/* Book by language card   */
+.langCard {
+    width: 384px;
+    height: 346px;
+    /* padding: 40px;    */
+    margin: 10px 0px;
+}
+
+.language {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.bookImg {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* .language p {
+    display: inline;
+} */
+.bookContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sale {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sale img {
+    width: 580px;
+    height: 400px;
+    margin: 20px;
+}
+
+.unicorn {
+    width: 100%;
+    margin: 64px 0px;
+    
+}
+
+/* produict lising page css :start */
+.left {
+    width: 20%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 10px;
+}
+
+.left .title {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 16px 0px;
+}
+
+
+.left ul li {
+    font-size: 12px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.left label {
+    font-size: 12px;
+}
+
+.left label input {
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.range {
+    display: flex;
+    justify-content: space-between;
+}
+
+.range label {
+    padding: 10px;
+    border: 1px solid #EEE;
+    margin: 5px 0;
+}
+
+.right {
+    width: 80%;
+    padding-left: 48px;
+}
+
+/* changes in css  */
+.langauge {
+    color: black;
+    font-size: 14px;
+}
+
+.deals {
+    margin: 15px 0px
+}
+
+@media only screen and (max-width: 767px) {
+    .main img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .sale {
+        max-width: 375pt;
+    }
+
+    .sale img {
+        margin: 16px;
+        width: 100%;
+        /* width: 343pt; */
+        height: 220px;
+    }
+
+    .unicorn {
+        width: 100%;
+        margin: 32px 0px;
+        height: 200px;
+    }
+
+    .deal .dealCard img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .deal .dealCard {
+
+        margin: 24px 10px;
+    }
+
+    .langCard {
+        width: 247px;
+        height: 230px;
+        /* padding: 40px; */
+        margin: 24px;
+    }
+
+    .bookImg img {
+        width: 92px;
+        height: 138px;
+    }
+
+    .language p {
+        font-size: 16px;
+    }
+
+    .language a {
+        font-size: 12px;
+    }
+
+    .bookContainer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: unset;
+        overflow-x: scroll;
+    }
+
+    /* Trending in books css start  */
+    .bookContent {
+        justify-content: unset;
+        padding: 10px 0px;
+        /* border-bottom: 1px solid #eee */
+    }
+
+    .bookTitle {
+        font-size: 20px;
+        /* padding-top: 25px;
+        padding: 0px 16px; */
+    }
+
+    .bookCard {
+        width: 140px;
+        height: 316px;
+        padding-top: 16px;
+        margin: 0px 16px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        position: relative;
+    }
+
+    .bookCard img {
+        width: 140px;
+        height: 210px;
+    }
+
+    .bookCard p {
+        text-align: center;
+        font-size: 12px;
+        color: #333F48;
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .bookCard button {
+        display: none;
+    }
+
+    .bookCard:hover .cartBtn {
+        display: none;
+    }
+
+    .whishlistSvg {
+        height: 13px;
+        width: 16px;
+        position: absolute;
+        top: 20px;
+        right: 5px;
+        background: #fff;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .cartBtn {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .main img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .sale {
+        max-width: 375pt;
+    }
+
+    .sale img {
+        margin: 16px;
+        width: 100%;
+        /* width: 343pt; */
+        height: 220px;
+    }
+
+    .unicorn {
+        width: 100%;
+        margin: 32px 0px;
+        height: 200px;
+    }
+
+    .deal .dealCard img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .deal .dealCard {
+
+        margin: 24px 10px;
+    }
+
+    .langCard {
+        width: 247px;
+        height: 230px;
+        /* padding: 40px; */
+        margin: 12px;
+    }
+
+    .bookImg img {
+        width: 92px;
+        height: 138px;
+    }
+
+    .language p {
+        font-size: 16px;
+    }
+
+    .language a {
+        font-size: 12px;
+    }
+
+    .bookContainer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: unset;
+        overflow-x: scroll;
+    }
+
+    /* Trending in books css start  */
+    .bookContent {
+        justify-content: unset;
+        padding: 0px 0px;
+        /* border-bottom: 1px solid #eee */
+    }
+
+    .bookTitle {
+        font-size: 20px;
+    }
+
+    .bookCard {
+        width: 140px;
+        height: 316px;
+        padding-top: 16px;
+        margin: 0px 16px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        position: relative;
+    }
+
+    .bookCard img {
+        width: 140px;
+        height: 210px;
+    }
+
+    .bookCard p {
+        text-align: center;
+        font-size: 12px;
+        color: #333F48;
+        margin-top: 3px;
+        margin-bottom: 2px;
+    }
+
+    .bookCard button {
+        display: none;
+    }
+
+    .bookCard:hover .cartBtn {
+        display: none;
+    }
+
+    .whishlistSvg {
+        height: 13px;
+        width: 16px;
+        position: absolute;
+        top: 20px;
+        right: 5px;
+        background: #fff;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+        padding: 0px;
+    }
+}

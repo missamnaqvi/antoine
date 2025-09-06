@@ -1,0 +1,586 @@
+.productContainer {
+    display: flex;
+
+}
+
+.bookContent {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cardListView {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filterContent {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.filter {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+/* .filter span {
+    position: absolute;
+    font-size: 10px;
+    color: #72797E;
+    top: 0;
+} */
+
+/* .filter select {
+    border: none;
+    margin-right: 16px;
+    background-color: #fff;
+} */
+
+/* PRODUCT CARD CSS START  */
+.bookCard {
+    width: 232px;
+    height: 490px;
+    padding: 8px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.bookCardListView {
+    width: 100%;
+    height: 273px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.whishlistSvg {
+    height: 15px;
+    width: 14px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.cardImg {
+    position: relative;
+}
+
+.bookCard .cardImg img {
+    width: 208px;
+    height: 312px;
+}
+
+.bookCardListView .cardImg img {
+    width: 160px;
+    height: 240px;
+}
+
+.cardContent {
+    /* margin-left: 48px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartBtn {
+    display: none;
+    background-color: #333F48;
+    color: #fff;
+    font-size: 16px;
+    height: 48px;
+    width: 200px;
+    text-align: center;
+    border: 0px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.bookCardListView .cartBtn {
+    display: block;
+    background-color: #333F48;
+    color: #fff;
+    font-size: 16px;
+    height: 48px;
+    width: 208px;
+    text-align: center;
+    border: 0px;
+    /* position: relative; */
+    /* bottom: 0px;
+    right: 8px; */
+    margin: 6px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 12px;
+    min-height: 20px;
+}
+
+.author {
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #00838C;
+    min-height: 20px;
+}
+
+.rating {
+    margin-bottom: 33px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.bookCard p {
+    text-align: center;
+    font-size: 14px;
+    color: #333F48;
+    margin-top: 6px;
+    margin-bottom: 4px;
+
+}
+
+
+
+
+.cartBtn svg {
+    padding: 0px 8px;
+    width: 20px;
+    height: 19px;
+    font-size: 16px;
+}
+
+
+
+/* feedback star css start  */
+
+/* feedback star css end  */
+.bookCard:hover .cartBtn {
+    display: block;
+}
+
+.bookCard:hover {
+    box-shadow: 0px 5px 10px #00000029;
+}
+
+.view {
+    display: flex;
+}
+
+.view button {
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.view .button {
+    background: white;
+    border: 1px solid #eeeeee;
+}
+
+.isactive {
+    background: #EEEEEE;
+    border: #EEEEEE;
+}
+
+.view svg {
+    padding-right: 12px;
+}
+
+.sortContent {
+    border: 1px solid #eeeeee;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 1px 10px;
+    cursor: pointer;
+}
+
+.sortContent span {
+    font-size: 10px;
+    color: #72797E;
+}
+
+.sortContent select {
+    border: none;
+    background: transparent;
+}
+
+.mobileSort {
+    display: none;
+}
+
+/* .mobileSortContent {
+    display: none;
+} */
+
+@media only screen and (max-width: 767px) {
+    .bookCard {
+        width: 155px;
+        height: 360px;
+        margin: 8px 0px;
+        padding: 0px;
+    }
+
+    .bookCardListView {
+        margin-left: 0px;
+    }
+
+    .bookCardListView .cartBtn {
+        display: block;
+        width: 140px;
+    }
+
+    .bookCard .cardImg img {
+        width: 155px;
+        height: 210px;
+    }
+
+    .bookContent {
+        justify-content: space-around;
+    }
+
+    .price {
+        margin: 0px;
+    }
+
+    .bookCard .cartBtn {
+        display: block;
+    }
+
+    .filter span,
+    select {
+        display: none;
+    }
+
+    .view {
+        display: flex;
+    }
+
+    .view button {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 14px 16px;
+    }
+
+    .filterContent {
+        margin: 10px 16px;
+    }
+
+    .bookCardListView {
+
+        width: 343px;
+        height: 212px;
+        padding: 25px 16px;
+    }
+
+    .bookCardListView .cardImg img {
+        width: 140px;
+        height: 210px;
+
+    }
+
+    .bookCardListView .cardContent {
+        margin-left: 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cartBtn {
+        display: block;
+        background-color: #333F48;
+        color: #fff;
+        font-size: 16px;
+        height: 36px;
+        width: 155px;
+        text-align: center;
+        border: 0px;
+        /* position: relative; */
+        margin: 0px;
+        cursor: pointer;
+    }
+
+    .title {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .author {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+
+    .rating {
+        margin-bottom: 33px;
+    }
+
+    .price {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 24px;
+    }
+
+    .sortContent {
+        display: none;
+    }
+
+    .bookCard.cartBtn {
+        display: block;
+    }
+
+    .bookCard {
+        box-shadow: none;
+    }
+
+    .mobileSort {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .mobileFilterBtn {
+        width: 50%;
+        background-color: white;
+        padding: 10px;
+        font-size: 14pt;
+        border: none;
+        border-right: 1px solid grey;
+    }
+
+    .mobileFilterBtnSvg {
+        margin-right: 10px;
+        width: 17.084px;
+        height: 20px;
+    }
+
+    .mobileSortBtn {
+        width: 50%;
+        background-color: white;
+        padding: 10px;
+        font-size: 14pt;
+        border: none;
+    }
+
+    .sortForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mobileSortContent {
+        position: fixed;
+        bottom: 0;
+        background: white;
+        width: 100%;
+    }
+
+    .sortBy {
+        margin: 3px 0px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        font-size: 13pt;
+
+    }
+
+    .sortByInput {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .bookCard {
+        width: calc((100%)/2);
+        margin-bottom: 32px;
+    }
+
+    .cartBtn {
+        display: block;
+        height: 36px;
+    }
+
+    .bookCardListView {
+        margin-left: 0px;
+    }
+
+    .bookCardListView .cartBtn {
+        display: block;
+        width: 140px;
+    }
+
+    .bookCard .cardImg img {
+        width: 150px;
+        height: 210px;
+    }
+
+    .bookContent button {
+        display: block;
+        background-color: #333f48;
+        border: 0;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        height: 35px;
+        text-align: center;
+        width: 139px;
+    }
+
+    .bookCard .cartBtn {
+        display: none;
+    }
+
+    .filter span,
+    select {
+        display: none;
+    }
+
+    .view {
+        display: flex;
+    }
+
+    .view button {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 14px 16px;
+    }
+
+    .filterContent {
+        margin: 10px 16px;
+    }
+
+    .bookCardListView {
+        width: 322px;
+        height: 212px;
+        padding: 25px 16px;
+    }
+
+    .bookCardListView .cardImg img {
+        width: 140px;
+        height: 210px;
+    }
+
+    .cardContent {
+        /* margin-left: 28px; */
+    }
+
+    .cartBtn {
+        display: block;
+        background-color: #333F48;
+        color: #fff;
+        font-size: 16px;
+        height: 36px;
+        width: 122px;
+        text-align: center;
+        border: 0px;
+        /* position: relative; */
+        margin: 6px;
+        cursor: pointer;
+    }
+
+    .title {
+        font-size: 14px;
+        margin-bottom: 12px;
+        /* min-height: 25px; */
+    }
+
+    .author {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+
+    .rating {
+        margin-bottom: 33px;
+    }
+
+    .price {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 24px;
+        margin: 0px;
+    }
+
+    .sortContent {
+        display: none;
+    }
+
+    .bookCard:hover {
+        box-shadow: none;
+    }
+
+    .bookCard .cartBtn {
+        display: block;
+    }
+
+    .mobileSort {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .mobileFilterBtn {
+        width: 50%;
+        background-color: white;
+        padding: 20px 10px;
+        font-size: 14pt;
+        border: none;
+        border-right: 1px solid grey;
+    }
+
+    .mobileFilterBtnSvg {
+        margin-right: 10px;
+        width: 17.084px;
+        height: 20px;
+    }
+
+    .mobileSortBtn {
+        width: 50%;
+        background-color: white;
+        padding: 20px 10px;
+        font-size: 14pt;
+        border: none;
+    }
+
+    .sortForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mobileSortContent {
+        padding: 10px 50px 10px;
+        position: fixed;
+        bottom: 0;
+        background: white;
+        width: 100%;
+    }
+}
