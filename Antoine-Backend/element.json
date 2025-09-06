@@ -1,0 +1,817 @@
+{
+  "country": [
+    {
+      "name": "LEBANON",
+      "image": "images/lebonan.png",
+      "lang": "ENG",
+      "currency": " "
+    },
+    {
+      "name": "INDIA",
+      "image": "images/lebonan.png",
+      "lang": "ENG",
+      "currency": "IND"
+    }
+  ],
+  "category": [
+    "all category"
+  ],
+  "menu": [
+    "Books",
+    "Magazines",
+    "Music & Video",
+    "Stationery",
+    "Toys",
+    "Gifts",
+    "Ticketing",
+    "Ministores",
+    "Education"
+  ],
+  "footer": [
+    {
+      "sym": "",
+      "text": "50000+ Books"
+    },
+    {
+      "sym": "",
+      "text": "Guaranteed Lowest Price"
+    },
+    {
+      "sym": "",
+      "text": "Free Shipping"
+    },
+    {
+      "sym": "",
+      "text": "Best Customer Service"
+    }
+  ],
+  "aboutus": [
+    "About us",
+    "Contact Us",
+    "Press"
+  ],
+  "service": [
+    "My Account",
+    "Store Locator",
+    "Track Your Order",
+    "Terms & Conditions",
+    "Privacy Policy",
+    "Delivery Policy",
+    "Returns Policy"
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Danser Jusqu'aux Etoils",
+      "author": "Pascale Maret",
+      "price": "800,000",
+      "img": "images/Danser.png",
+      "path": "Books"
+    },
+    {
+      "id": 2,
+      "title": "The Sin Eater",
+      "author": " Campisi, Megan",
+      "price": "400,000",
+      "img": "images/sin eater.png",
+      "path": "Bookss"
+    },
+    {
+      "id": 3,
+      "title": "Hercules - Les Ecuries D'augias",
+      "author": "Montardre Helene",
+      "price": "200,000",
+      "img": "images/hercule.png",
+      "path": "Booksa"
+    },
+    {
+      "id": 4,
+      "title": "Modern Art In Cold War Beirut",
+      "author": "Rogers, Sarah",
+      "price": "800,000",
+      "img": "images/modern art.png",
+      "path": "Booksfd"
+    },
+    {
+      "id": 5,
+      "title": "Jocelyne Khoueiry",
+      "author": "Rogers, Sarah",
+      "price": "800,000",
+      "img": "images/jocelyne.png",
+      "path": "Bookssa"
+    }
+  ],
+  "deals": [
+    {
+      "id": 1,
+      "img": "images/BestSeller.png",
+      "text": "Best Sellers"
+    },
+    {
+      "id": 2,
+      "img": "images/NewRelease.png",
+      "text": "New Releases"
+    },
+    {
+      "id": 3,
+      "img": "images/ComingSoon.png",
+      "text": "Coming Soon"
+    },
+    {
+      "id": 4,
+      "img": "images/Pen.png",
+      "text": "Signed Editions"
+    },
+    {
+      "id": 5,
+      "img": "images/Book.png",
+      "text": "Ebooks"
+    },
+    {
+      "id": 6,
+      "img": "images/GiftCard.png",
+      "text": "Gift Vouchers"
+    },
+    {
+      "id": 7,
+      "img": "images/Discout.png",
+      "text": "Coupan & Deals"
+    }
+  ],
+  "booksByLangauge": [
+    {
+      "langauge": "Spanish",
+      "img1": "images/spanish1.png",
+      "img2": "images/spanish3.png",
+      "color": "linear-gradient(rgba(244, 217, 127,.16) 0%, rgba(237, 188, 208,.16) 100%) transparent"
+    },
+    {
+      "langauge": "German",
+      "img1": "images/german1.png",
+      "img2": "images/german3.png",
+      "color": "linear-gradient(rgba(230, 33, 24,.16) 0%, rgba(254, 213, 48,.16) 100%)  transparent"
+    },
+    {
+      "langauge": "French",
+      "img1": "images/french1.png",
+      "img2": "images/french3.png",
+      "color": "linear-gradient(rgba(22, 161, 86,.16) 0%, rgba(218, 61, 67,.16) 100%) 0% 0% no-repeat padding-box padding-box transparent"
+    },
+    {
+      "langauge": "Polish",
+      "img1": "images/polish1.png",
+      "img2": "images/polish3.png",
+      "color": "linear-gradient(rgba(221, 221, 221,.16) 0%, rgba(229, 46, 76,.16) 100%) 0% 0% no-repeat padding-box padding-box transparent"
+    },
+    {
+      "langauge": "Italian",
+      "img1": "images/italian1.png",
+      "img2": "images/italian3.png",
+      "color": "linear-gradient(rgba(6, 56, 166,.16) 0%, rgba(243, 66, 73,.16) 100%) 0% 0% no-repeat padding-box padding-box transparent"
+    },
+    {
+      "langauge": "Finnish",
+      "img1": "images/finnish1.png",
+      "img2": "images/finnish3.png",
+      "color": "linear-gradient(rgba(238, 238, 238,0.16) 0%, rgba(15, 115, 167,0.16) 100%) 0% 0% no-repeat padding-box padding-box transparent"
+    }
+  ],
+  "music": [
+    {
+      "id": 1,
+      "img": "images/The Prophet Dvd.png",
+      "title": "The Prophet Dvd",
+      "author": "Liam Neeson (Mustafa Voice)",
+      "price": "  800,000",
+      "path": "Books"
+    },
+    {
+      "id": 2,
+      "img": "images/Listen (BLURAY).png",
+      "title": "Listen (BLURAY)",
+      "author": "Campisi, Megan",
+      "price": "  22,700",
+      "path": "Books"
+    },
+    {
+      "id": 3,
+      "img": "images/Hritages Dvd.png",
+      "title": "Héritages Dvd",
+      "author": "Montardre Helene",
+      "price": "  200,000",
+      "path": "Books"
+    },
+    {
+      "id": 4,
+      "img": "images/Guardians Of Time Lost.png",
+      "title": "Guardians Of Time Lost",
+      "author": "Montardre Helene",
+      "price": "  22,700",
+      "path": "Books"
+    },
+    {
+      "id": 5,
+      "img": "images/La Valle et La Montagne.png",
+      "title": "La Vallée et La Montagne",
+      "author": "Rogers, Sarah",
+      "price": "  100,000",
+      "path": "Books"
+    }
+  ],
+  "toys": [
+    {
+      "id": 1,
+      "img": "images/toy1.png",
+      "title": "Clic Educ Color Anime",
+      "author": "NATHAN",
+      "price": "  800,000",
+      "path": "Books"
+    },
+    {
+      "id": 2,
+      "img": "images/toy2.png",
+      "title": "Dessineo - Mes Premiers",
+      "author": "Campisi, Megan",
+      "price": "  22,700",
+      "path": "Books"
+    },
+    {
+      "id": 3,
+      "img": "images/toy3.png",
+      "title": "Fidget Toy Magic Rainbow Ball",
+      "author": "Montardre Helene",
+      "price": "  200,000",
+      "path": "Books"
+    },
+    {
+      "id": 4,
+      "img": "images/toy4.png",
+      "title": "Enigmes - Sports",
+      "author": "Montardre Helene",
+      "price": "  22,700",
+      "path": "Books"
+    },
+    {
+      "id": 5,
+      "img": "images/toy5.png",
+      "title": "Coup",
+      "author": "Rogers, Sarah",
+      "price": "  100,000",
+      "path": "Books"
+    }
+  ],
+  "productsListing": [
+    {
+      "id": 1,
+      "img": "images/pl1.png",
+      "title": "The Prophet Dvd",
+      "author": "Liam Neeson (Mustafa Voice)",
+      "price": 800000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 2,
+      "img": "images/Danser.png",
+      "title": "Listen (BLURAY)",
+      "author": "Campisi, Megan",
+      "price": 22700,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 3,
+      "img": "images/pl2.png",
+      "title": "Héritages Dvd",
+      "author": "Montardre Helene",
+      "price": 200000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 4,
+      "img": "images/pl3.png",
+      "title": "Guardians Of Time Lost",
+      "author": "Montardre Helene",
+      "price": 22700,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 5,
+      "img": "images/pl4.png",
+      "title": "La Vallée et La Montagne",
+      "author": "Rogers, Sarah",
+      "price": 100000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 6,
+      "img": "images/pl5.png",
+      "title": "Danser Jusquaux Etoiles",
+      "author": "Pascale Maret",
+      "price": 800000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 7,
+      "img": "images/pl6.png",
+      "title": "The Sin Eater",
+      "author": "Campisi, Megan",
+      "price": 400000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 8,
+      "img": "images/pl7.png",
+      "title": "Hercule - Les Ecuries D’augias",
+      "author": "Montardre Helene",
+      "price": 200000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 9,
+      "img": "images/pl8.png",
+      "title": "Modern Art In Cold War Beirut",
+      "author": "Rogers, Sarah",
+      "price": 500000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 10,
+      "img": "images/pl9.png",
+      "title": "Jocelyne Khoueiry L’indomptable",
+      "author": "Rogers, Sarah",
+      "price": 800000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 11,
+      "img": "images/pl10.png",
+      "title": "The Prophet Dvd",
+      "author": "Liam Neeson (Mustafa Voice)",
+      "price": 800000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 12,
+      "img": "images/pl11.png",
+      "title": "Listen (BLURAY)",
+      "author": "Campisi, Megan",
+      "price": 22700,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 13,
+      "img": "images/pl12.png",
+      "title": "Héritages Dvd",
+      "author": "Montardre Helene",
+      "price": 200000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 14,
+      "img": "images/pl13.png",
+      "title": "Guardians Of Time Lost",
+      "author": "Montardre Helene",
+      "price": 22700,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 15,
+      "img": "images/pl14.png",
+      "title": "La Vallée et La Montagne",
+      "author": "Rogers, Sarah",
+      "price": 100000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 16,
+      "img": "images/pl15.png",
+      "title": "Danser Jusqu’aux Etoiles",
+      "author": "Pascale Maret",
+      "price": 800000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 17,
+      "img": "images/pl16.png",
+      "title": "The Sin Eater",
+      "author": "Campisi, Megan",
+      "price": 400000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 18,
+      "img": "images/pl17.png",
+      "title": "Hercule - Les Ecuries D’augias",
+      "author": "Montardre Helene",
+      "price": 200000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 19,
+      "img": "images/pl18.png",
+      "title": "Modern Art In Cold War Beirut",
+      "author": "Rogers, Sarah",
+      "price": 500000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    },
+    {
+      "id": 20,
+      "img": "images/jocelyne.png",
+      "title": "Jocelyne Khoueiry L’indomptable",
+      "author": "Rogers, Sarah",
+      "price": 800000,
+      "thumb": [
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png",
+        "images/hercule.png"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "cate": [
+        {
+          "id": 1,
+          "name": "Architecture"
+        },
+        {
+          "id": 2,
+          "name": "Arts & Photography"
+        },
+        {
+          "id": 3,
+          "name": "Biography"
+        },
+        {
+          "id": 4,
+          "name": "Cookbooks, Food & Wine"
+        },
+        {
+          "id": 5,
+          "name": "General Fiction"
+        },
+        {
+          "id": 6,
+          "name": "Historical Fiction"
+        },
+        {
+          "id": 7,
+          "name": "History"
+        },
+        {
+          "id": 8,
+          "name": "Horror"
+        },
+        {
+          "id": 9,
+          "name": "Manga"
+        },
+        {
+          "id": 10,
+          "name": "Mystery & Crime"
+        },
+        {
+          "id": 11,
+          "name": "Religion"
+        },
+        {
+          "id": 12,
+          "name": "Romance"
+        },
+        {
+          "id": 13,
+          "name": "Sci-Fi & Fantasy"
+        },
+        {
+          "id": 14,
+          "name": "Self-Help & Relationships"
+        }
+      ],
+      "languages": [
+        {
+          "id": 1,
+          "language": "Spanish"
+        },
+        {
+          "id": 2,
+          "language": "German"
+        },
+        {
+          "id": 3,
+          "language": "French"
+        },
+        {
+          "id": 4,
+          "language": "Polish"
+        }
+      ],
+      "format": [
+        {
+          "id": 1,
+          "format": "HardCover"
+        },
+        {
+          "id": 2,
+          "format": "Audio CD"
+        },
+        {
+          "id": 3,
+          "format": "Ebook"
+        }
+      ]
+    }
+  ],
+  "megamenu": [
+    {
+      "topsubject": [
+        {
+          "id": 1,
+          "name": "Architecture"
+        },
+        {
+          "id": 2,
+          "name": "Arts & Photography"
+        },
+        {
+          "id": 3,
+          "name": "Biography"
+        },
+        {
+          "id": 4,
+          "name": "Cookbooks, Food & Wine"
+        },
+        {
+          "id": 5,
+          "name": "General Fiction"
+        },
+        {
+          "id": 6,
+          "name": "Historical Fiction"
+        },
+        {
+          "id": 7,
+          "name": "History"
+        },
+        {
+          "id": 8,
+          "name": "Horror"
+        },
+        {
+          "id": 9,
+          "name": "Manga"
+        },
+        {
+          "id": 10,
+          "name": "Mystery & Crime"
+        },
+        {
+          "id": 11,
+          "name": "Religion"
+        },
+        {
+          "id": 12,
+          "name": "Romance"
+        },
+        {
+          "id": 13,
+          "name": "Sci-Fi & Fantasy"
+        },
+        {
+          "id": 14,
+          "name": "Self-Help & Relationships"
+        }
+      ],
+      "browse": [
+        {
+          "id": 1,
+          "name": "50% Off Hundreds of Books"
+        },
+        {
+          "id": 2,
+          "name": "Summer Reading"
+        },
+        {
+          "id": 3,
+          "name": "Back to School"
+        },
+        {
+          "id": 4,
+          "name": "Antoine Exclusives"
+        },
+        {
+          "id": 5,
+          "name": "Black Voices"
+        },
+        {
+          "id": 6,
+          "name": "Book Awards"
+        },
+        {
+          "id": 7,
+          "name": "Boxed Sets"
+        },
+        {
+          "id": 8,
+          "name": "Foreign Language Books"
+        },
+        {
+          "id": 9,
+          "name": "Manga"
+        },
+        {
+          "id": 10,
+          "name": "Large Print"
+        },
+        {
+          "id": 11,
+          "name": "Mental Health Awareness"
+        },
+        {
+          "id": 12,
+          "name": "Page & Screen"
+        },
+        {
+          "id": 13,
+          "name": "Paperback Store"
+        },
+        {
+          "id": 14,
+          "name": "Rare & Collector’s Books"
+        },
+        {
+          "id": 15,
+          "name": "Things to Do at Home"
+        },
+        {
+          "id": 16,
+          "name": "Trend Shop"
+        }
+      ],
+      "departments": [
+        {
+          "id": 1,
+          "name": "Book Annex"
+        },
+        {
+          "id": 2,
+          "name": "Book Annex"
+        },
+        {
+          "id": 3,
+          "name": "Newsstand"
+        },
+        {
+          "id": 4,
+          "name": "Textbooks"
+        },
+        {
+          "id": 5,
+          "name": "Audiobooks"
+        },
+        {
+          "id": 6,
+          "name": "NOOK Audiobooks"
+        },
+        {
+          "id": 7,
+          "name": "Gift Cards"
+        }
+      ],
+      "megamenuImg": [
+        {
+          "id": 1,
+          "img": "images/pl15.png"
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "title": "Danser Jusqu'aux Etoils",
+      "auth": "Pascale Maret",
+      "price": "800,000",
+      "img": "images/Danser.png",
+      "qty": 1,
+      "id": 1
+    },
+    {
+      "title": "The Prophet Dvd",
+      "auth": "Liam Neeson (Mustafa Voice)",
+      "price": "  800,000",
+      "img": "images/The Prophet Dvd.png",
+      "qty": 1,
+      "id": 2
+    },
+    {
+      "title": "Clic Educ Color Anime",
+      "auth": "NATHAN",
+      "price": "  800,000",
+      "img": "images/toy1.png",
+      "qty": 1,
+      "id": 3
+    },
+    {
+      "title": "Danser Jusqu'aux Etoils",
+      "auth": "Pascale Maret",
+      "price": "800,000",
+      "img": "images/Danser.png",
+      "qty": 1,
+      "id": 4
+    }
+  ]
+}
